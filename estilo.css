@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html body {
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(98, 240, 131);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 80px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+section#img1 {
+    background-image: url("imagem/background001.jpg");
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+    padding: 80px;
+    color: white;
+    margin: 0px;
+    max-width: 1500px;
+    
+}
+
+section.imagem p {
+    background-color: rgb(58, 58, 155);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    max-width: 500px;
+    
+    
+}
+
+section#img2 {
+    background-image: url("imagem/background002.jpg");
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+    padding: 80px;
+    color: white;
+    box-shadow: 3px 3px 15px 1px black;
+    max-width: 1500px;
+    
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
